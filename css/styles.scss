@@ -74,3 +74,22 @@ body{
     bottom: 0px;
     z-index: 1;
 }
+
+.modal-content {
+
+	.modal-header {		
+        color:floralwhite;
+        background: $background-dark;
+        border-bottom: none;
+            }
+            .close{
+                color:floralwhite;
+            }
+            .modal-body{
+                background: $background-pale;
+            }
+            .modal-footer{
+                border-top: none;
+                background: $background-light;
+            }	
+}
